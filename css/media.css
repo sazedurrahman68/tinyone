@@ -1,0 +1,155 @@
+/*Extra small devices (portrait phones, less than 576px)(col device)*/
+@media (max-width: 575.98px) {
+/*header start	*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+}
+/*header ends	*/
+/*slider start*/
+.slider_content{
+	margin-top: 0;
+}
+.slider_content h1{
+	font-size: 24px;
+}
+.slider_content h2{
+	margin: 10px 0;
+    font-size: 17px;
+}
+.slider_content p{
+	margin-right: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.slider_icon li i{
+	font-size: 30px;
+}
+.slider_image{
+	display: none;
+}
+/*slider ends*/
+/*feature start*/
+.feature{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.c_p{
+	font-size: 14px;
+}
+.m_t_60{
+	margin-top: 25px;
+}
+.s_text{
+	text-align: center;
+}
+/*feature ends*/
+/*contact start*/
+.form_submit button{
+	margin-top: 10px;
+}
+/*contact ends*/
+/*footer start*/
+.footer_1{
+	margin-bottom: 20px;
+	text-align: center;
+}
+/*footer ends*/
+}
+
+/*Small devices (landscape phones, 576px and up)(sm device)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start	*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+}
+/*header ends	*/	
+/*slider start*/
+.slider{
+	padding-top: 0;
+}
+.slider_content{
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.slider_image{
+	display: none;
+}
+/*slider ends*/
+/*featueres start*/
+.feature{
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.c_p{
+	font-size: 16px;
+}
+.m_t_60{
+	margin-top: 40px;
+}
+.s_text h2 {
+    font-size: 24px;
+}
+/*featueres ends*/
+
+/*footer start*/
+.footer_1{
+	margin-bottom: 20px;
+	text-align: center;
+}
+/*footer ends*/
+}
+
+/*Medium devices (tablets, 768px and up)(md device)*/
+@media (min-width: 768px) and (max-width: 1023px) {
+/*header start	*/
+.menu ul li a{
+	padding: 0 20px !important;
+}
+/*header ends	*/
+/*slider start here*/
+.slider_image{
+	margin-left: -25px;
+}
+/*slider ends here*/
+/*feature start*/
+.c_p{
+	font-size: 17px;
+}
+.m_t_60{
+	margin-top: 45px;
+}
+/*feature ends*/
+/*contact start*/
+.form_email input{
+	height: 40px;
+	border-radius: 2px;
+}
+.form_submit button{
+	height: 40px;
+	border-radius: 2px;
+}
+/*contact start*/
+}
+
+/*Large devices (desktops, 992px and up) (lg device)*/
+@media (min-width: 1024px) and (max-width: 1399px) {
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)(xl device*/
+@media (min-width: 1400px) {
+.slider_content h1{
+	font-size: 42px;
+}
+.slider_content h2{
+	font-size: 28px;
+}
+.slider_content p{
+	font-size: 22px;
+}
+.slider_image{
+	margin-left: 88px;
+}
+}
